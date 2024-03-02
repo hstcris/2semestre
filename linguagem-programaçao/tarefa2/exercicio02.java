@@ -6,11 +6,11 @@ class NumeroEleitores {
   double votosNulos = 500;
   double votosValidos = 200;
 
-  double porcentagemVotosTotal = votosValidos / votosTotal * 100;
-  double porcentagemVotosValidos = votosBrancos / votosTotal * 100;
-  double porcentagemVotosNulos = votosNulos / votosTotal * 100;
+  double porcentagemVotosTotais = votosValidos / votosTotais * 100;
+  double porcentagemVotosValidos = votosBrancos / votosTotais * 100;
+  double porcentagemVotosNulos = votosNulos / votosTotais * 100;
 
-  System.out.println("Porcentagem de votos totais: " + porcentagemVotosTotal + "%");
+  System.out.println("Porcentagem de votos totais: " + porcentagemVotosTotais + "%");
   System.out.println("Porcentagem de votos válidos: " + porcentagemVotosValidos + "%");
   System.out.println("Porcentagem de votos nulos: " + porcentagemVotosNulos + "%");
 }
