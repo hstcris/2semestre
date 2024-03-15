@@ -69,6 +69,8 @@ public class Celular {
         a1.setModelo("APPLE");
         a1.setCapacidade(4);
         a1.setCarga(90);
+        a1.ligar();
+        a1.fotografar();
         a1.estadoAtual();
 
 
