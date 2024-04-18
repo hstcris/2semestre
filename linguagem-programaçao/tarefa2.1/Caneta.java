@@ -56,29 +56,8 @@ public class Caneta {
         this.tampada = tampada;
     }
 }
-public class Main {
-    public static void main(String[] args) {
-        Caneta c1 = new Caneta();
-        c1.setCor("AZUL");
-        c1.setModelo("BIC");
-        c1.setTampada(true);
-        c1.estadoAtual();
-        System.out.println("\n");
-
-        Caneta c2 = new Caneta();
-        c2.setCor("PRETO");
-        c2.setModelo("FABERCASTELL");
-        c2.setTampada(true);
-        c2.estadoAtual();
-        System.out.println("\n");
-
-        Caneta c3 = new Caneta();
-        c3.setCor("VERMELHA");
-        c3.setModelo("CIS");
-        c3.setTampada(false);
-        c3.estadoAtual();
 
 
 
-    }
-}
+
+

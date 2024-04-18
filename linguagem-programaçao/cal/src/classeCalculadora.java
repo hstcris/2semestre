@@ -1,9 +1,9 @@
-public class Calculadora {
+public class classeCalculadora {
     private int numerador;
     private int denominador;
 
     // Construtor
-    public Calculadora(int numerador, int denominador) {
+    public void Calculadora(int numerador, int denominador) {
         this.numerador = numerador;
         this.denominador = denominador;
     }

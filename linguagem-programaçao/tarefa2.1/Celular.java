@@ -65,29 +65,7 @@ public class Celular {
 
 }
 
- Celular a1 = new Celular();
-        a1.setModelo("APPLE");
-        a1.setCapacidade(4);
-        a1.setCarga(90);
-        a1.ligar();
-        a1.fotografar();
-        a1.estadoAtual();
 
 
-        System.out.println("\n");
 
-        Celular a2 = new Celular();
-        a2.setModelo("SAMSUNG");
-        a2.setCapacidade(8);
-        a2.setCarga(50);
-        a2.estadoAtual();
-        System.out.println("\n");
 
-        Celular a3 = new Celular();
-        a3.setModelo("XIAOMI");
-        a3.setCapacidade(64);
-        a3.setCarga(20);
-        a3.estadoAtual();
-
-    }
-}

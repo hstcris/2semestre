@@ -1,12 +1,4 @@
-public class Main {
-    public static void main(String[] args) {
-       Aviao aviao = new Aviao("Modelo Y", 30000, 150);
 
-        aviao.subir();
-        aviao.descer();
-        aviao.exibirInformacoes();
-    }
-}
 public class Aviao {
   
     private String modelo;

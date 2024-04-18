@@ -1,30 +1,3 @@
-public class Main {
-    public static void main(String[] args) {
-        Moto a1 = new Moto();
-        a1.setAro(14);
-        a1.setCor("Preto");
-        a1.setModelo("Scooter");
-        a1.andar();
-        a1.buzinar();
-        a1.estadoAtual();
-        System.out.println("\n");
-
-        Moto a2 = new Moto();
-        a2.setModelo("Custom");
-        a2.setCor("Azul");
-        a2.setAro(29);
-        a2.empinar();
-        a2.buzinar();
-        a2.estadoAtual();
-        System.out.println("\n");
-
-        Moto a3 = new Moto();
-        a3.setAro(11);
-        a3.setCor("Vermelha");
-        a3.setModelo("Naked");
-        a3.andar();
-        a3.empinar();
-        a3.estadoAtual();
 
 public class Moto {
     // atributos

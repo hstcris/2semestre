@@ -1,31 +1,4 @@
-public class Main {
-    public static void main(String[] args) {
-        Carro a1 = new Carro();
-        a1.setCor("Preto");
-        a1.setMarca("Audi");
-        a1.setKilometragem(30000);
-        a1.andar();
-        a1.buzinar();
-        a1.estadoAtual();
-        System.out.println("\n");
 
-        Carro a2 = new Carro();
-        a1.setKilometragem(600);
-        a1.setCor("Azul");
-        a1.setMarca("BMW");
-        a1.parado();
-        a1.buzinar();
-        a1.estadoAtual();
-        System.out.println("\n");
-
-        Carro a3 = new Carro();
-        a1.setCor("Vermelho");
-        a1.setKilometragem(800);
-        a1.setMarca("BYD");
-        a1.buzinar();
-        a1.parado();
-        a1.estadoAtual();
-        System.out.println("\n");
 
 public class Carro {
     // atributos

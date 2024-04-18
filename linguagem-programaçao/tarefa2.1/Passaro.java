@@ -1,31 +1,3 @@
-public class Main {
-    public static void main(String[] args) {
-        Passaro a1 = new Passaro();
-        a1.setCor("Azul");
-        a1.setEspecie("Andorinha");
-        a1.setTamanho(4);
-        a1.cantar();
-        a1.comer();
-        a1.estadoAtual();
-        System.out.println("\n");
-
-        Passaro a2 = new Passaro();
-        a2.setTamanho(6);
-        a2.setCor("Vermelho");
-        a2.setEspecie("PicaPau");
-        a2.voar();
-        a2.bicar();
-        a2.estadoAtual();
-        System.out.println("\n");
-
-        Passaro a3 = new Passaro();
-        a3.setEspecie("Pardal");
-        a3.setCor("Marron");
-        a3.setTamanho(3);
-        a3.voar();
-        a3.cantar();
-        a3.estadoAtual();
-        System.out.println("\n");
 
 public class Passaro{
     // atributos
